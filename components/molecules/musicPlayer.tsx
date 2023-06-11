@@ -22,7 +22,7 @@ const App: React.FC = () => {
     <div className="flex items-center space-x-2">
       {isPlaying && (
         <motion.div
-          className="font-xs font-quickSand flex items-center justify-center bg-custom-brown/60 text-white shadow-sm rounded-l-full p-2 px-4 h-10 truncate overflow-hidden border-r-4 border-r-neutral-700"
+          className="font-xs font-quickSand flex items-center justify-center bg-custom-brown/60 text-white shadow-sm rounded-l-full p-2 px-4 h-10 truncate overflow-hidden border-r-4 border-r-custom-brown"
           animate={{ width: ["0px", "250px"] }}
           transition={{
             duration: 0.5,
