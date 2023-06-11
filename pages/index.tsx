@@ -26,9 +26,19 @@ const Home = () => {
           <Countdown endDate={endDateManila} />
         </div>
 
+        <div className="h-40 relative w-full">
+          <Image
+            src="/images/divider.svg"
+            height={100}
+            width={600}
+            alt="divider"
+            className="absolute top-0 left-[50%] translate-x-[-50%] h-full object-cover"
+          />
+        </div>
+
         {/* images / videos */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-3/4 mx-auto p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-3/4 mx-auto p-4">
           <Image
             src="/images/dummy.jpg"
             alt="prenup"
