@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Merriweather", "serif", "sans-serif"],
+      quickSand: ["Quicksand", "sans-serif"],
     },
     fontWeight: {
       light: 300,
