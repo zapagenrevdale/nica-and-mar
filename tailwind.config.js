@@ -9,6 +9,8 @@ module.exports = {
     fontFamily: {
       sans: ["Merriweather", "serif", "sans-serif"],
       quickSand: ["Quicksand", "sans-serif"],
+      montaga: ["Montaga", "serif"],
+      darleston: ["Darleston", "sans"],
     },
     fontWeight: {
       light: 300,
