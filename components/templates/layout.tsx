@@ -3,7 +3,7 @@ import Header from "@/components/organisms/header";
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <div className="min-h-screen min-w-screen flex items-center flex-col relative">
+    <div className="min-w-full w-full flex items-center flex-col relative">
       {/* header */}
       <Header />
       {children}

@@ -4,17 +4,17 @@ const Number: React.FC<Props> = ({ digits, label }) => {
 
   return (
     <span className="text-center ">
-      <div className="flex gap-x-1 text-4xl font-bold text-white ">
+      <div className="flex gap-x-1 text-xl md:text-4xl font-bold text-white ">
         {digitArray.map((digit, index) => (
           <div
             key={index}
-            className="p-4 bg-custom-brown text-center w-14 rounded-md"
+            className="p-2 sm:p-4 bg-custom-brown text-center w-10 sm:w-14 rounded-md"
           >
             {digit}
           </div>
         ))}
       </div>
-      <label className="leading-10 text-neutral-700">{label}</label>
+      <label className="leading-10 text-neutral-700 text-xs sm:text-base">{label}</label>
     </span>
   );
 };
