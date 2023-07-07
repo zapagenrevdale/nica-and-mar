@@ -16,7 +16,7 @@ const Hero = () => {
       transition={{ duration: 0.8 }}
       className="flex flex-col justify-center items-center p-10 text-text-brown  relative max-h-[400px] md:max-h-[600px] bg-no-repeat bg-cover bg-top md:bg-fixed overflow-hidden"
       style={{
-        backgroundImage: "url('/images/bg.png')",
+        backgroundImage: "url('/images/DD5A4874.png')",
       }}
     >
       {/* background opacity */}
