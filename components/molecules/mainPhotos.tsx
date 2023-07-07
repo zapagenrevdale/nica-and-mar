@@ -9,7 +9,7 @@ const MainPhotos = () => {
   return (
     <div
       ref={ref}
-      className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-3/4 max-h-[500px] h-full mx-auto pt-20 overflow-hidden"
+      className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-3/4  mx-auto pt-20 overflow-hidden"
     >
       <motion.div
         animate={{
@@ -23,7 +23,8 @@ const MainPhotos = () => {
           alt="prenup"
           width={800}
           height={800}
-          className="rounded-md shadow-md h-full"
+          className="rounded-md shadow-md "
+        
         />
       </motion.div>
 
@@ -37,9 +38,9 @@ const MainPhotos = () => {
         <img
           src="/images/DD5A5839.png"
           alt="prenup"
-          width={700}
-          height={700}
-          className="rounded-md shadow-md h-full"
+          width={800}
+          height={800}
+          className="rounded-md shadow-md"
         />
       </motion.div>
     </div>
