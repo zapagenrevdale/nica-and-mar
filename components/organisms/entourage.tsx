@@ -6,7 +6,7 @@ const EntourageGroup = () => {
     <div
       className="flex justify-center w-full relative  pb-10 my-14 overflow-hidden border-2  bg-no-repeat bg-top bg-cover"
       style={{
-        backgroundImage: "url('/images/DD5A5807.jpg')",
+        backgroundImage: "url('/images/DD5A5807.png')",
         // backgroundAttachment: "fixed",
       }}
     >

@@ -17,10 +17,7 @@ const Home = () => {
         {/* now image with link  */}
         {/* <RSVP /> */}
         <EntourageGroup />
-        {/* remove background designs */}
-        {/* add attire add backg*/}
         <Attire />
-        {/* remove bg design */}
         <Location />
         <Guide />
         <FAQS />
