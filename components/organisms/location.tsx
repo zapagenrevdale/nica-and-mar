@@ -3,15 +3,9 @@ import LocationCard from "../molecules/location";
 
 const Location = () => {
   return (
-    <div className="flex flex-col items-center w-full relative min-h-[800px] font-montaga py-10 text-neutral-70">
-      <Image
-        alt="Location Background"
-        src="/images/background/bg3-up.jpg"
-        width={472}
-        height={709}
-        className="absolute top-0 left-0 w-[20%] -z-20"
-      />
-      <h1 className="text-3xl md:text-4xl lg:text-5xl text-center py-4 lg:pb-16 px-10">
+    <div className="flex flex-col items-center w-full relative min-h-[800px]  py-10 text-neutral-70 border-2 border-text-brown/80 rounded-md shadow-lg mt-20">
+
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-woodland font-bold text-center py-4 lg:pb-16 px-10">
         SEREMONYA & RESEPSYON
       </h1>
 
@@ -34,13 +28,6 @@ const Location = () => {
         />
       </div>
 
-      <Image
-        alt="Location Background"
-        src="/images/background/bg3-down.jpg"
-        width={472}
-        height={709}
-        className="absolute bottom-0 right-0 w-[20%] -z-20"
-      />
     </div>
   );
 };

@@ -3,43 +3,46 @@ import Entourage from "../molecules/entourage";
 
 const EntourageGroup = () => {
   return (
-    <div className="flex justify-center w-full relative  pb-10 overflow-hidden">
-      <Image
-        alt="Entourage background"
-        src="/images/background/bg1-up.jpg"
-        width={472}
-        height={709}
-        className="absolute top-0 left-0 w-[20%] -z-20"
-      />
+    <div
+      className="flex justify-center w-full relative  pb-10 my-14 overflow-hidden border-2  bg-no-repeat bg-top bg-cover"
+      style={{
+        backgroundImage: "url('/images/DD5A5807.jpg')",
+        // backgroundAttachment: "fixed",
+      }}
+    >
+      <div className="h-full w-full absolute opacity-70 bg-white"/>
+   
 
-      <div className="flex flex-col justify-center items-center gap-16 font-montaga text-neutral-700  w-full max-w-[720px] m-5 lg:m-20">
+      <div className="flex flex-col justify-center items-center gap-14 font-montaga text-neutral-700  w-11/12 p-10 z-10">
         {/* title */}
-        <h1 className="text-5xl text-center">The Entourage</h1>
+        <h1 className="text-5xl text-center font-woodland font-bold">
+          The Entourage
+        </h1>
 
         {/* groom and bride */}
         {/* grid 2 */}
         <div className="grid grid-cols-2 w-full">
           <Entourage
-            title="Parents of the Groom"
-            names={["Mr. Rodolfo A. Pineda", "Mrs. Donata T. Pineda"]}
+            title="Mga Mahal Naming Magulang"
+            names={["Ginoong Rodolfo A. Pineda", "Ginang Donata T. Pineda"]}
           />
           <Entourage
-            title="Parents of the Bride"
-            names={["Mr. Manuel R. Luna", "Mrs. Marie Grace M. Luna"]}
+            title="Mga Mahal Naming Magulang"
+            names={["Ginoong Manuel R. Luna", "Ginang Marie Grace M. Luna"]}
           />
         </div>
-
         {/* principal sponsor */}
         {/* grid 1 */}
 
         <div className="grid grid-cols-1 w-full">
           <Entourage
-            title="Principal Sponsor"
+            title="Mga Gabay Sa Aming Buhay"
             names={[
               "Ginoong Mark Marcial & Ginang Lory Mae Tubuan",
               "Ginoong Michael Marcial & Ginang Margie Reyes",
               "Ginoong Bernie Turla & Ginang Maridel Rebadavia ",
               "Ginoong Joselito Salazar & Ginang Glenda Magat",
+              "Ginoong Bado Pineda & Ginang Nora Fajardo",
               "Ginoong Bado Pineda & Ginang Nora Fajardo",
               "Ginoong Joey Turla & Ginang Rem Turla",
               "Ginoong Paul Pineda & Ginang Melissa Hernandez",
@@ -52,76 +55,78 @@ const EntourageGroup = () => {
 
         <div className="grid grid-cols-2 w-full">
           <Entourage
-            title="Best Man"
-            names={["Mr. Ashly Arquero", "Mr. Paul Quiñone"]}
+            title="Mga Piling Ginoong Pandangal"
+            names={["Ginoong Ashly Arquero", "Ginoong Paul Quiñone"]}
           />
-          <Entourage title="Maid of Honor" names={["Ms. Kate Luna"]} />
+          <Entourage
+            title="Mga Piling Binibining Pandangal"
+            names={["Binibining Kate Luna"]}
+          />
         </div>
 
         {/* gman and bmaid*/}
         {/* grid 2 */}
         <div className="grid grid-cols-2 w-full">
           <Entourage
-            title="Groomsmen"
+            title="Abay"
             names={[
-              "Mr. Jed Policarpio",
-              "Mr. Victorio Balais",
-              "Mr. Villy Fuellas",
-              "Mr. Jerome Estadilla",
-              "Mr. Kent Luna",
-              "Mr. Marvin Gomez",
+              "Ginoong Jed Policarpio",
+              "Ginoong Victorio Balais",
+              "Ginoong Villy Fuellas",
+              "Ginoong Jerome Estadilla",
+              "Ginoong Kent Luna",
+              "Ginoong Marvin Gomez",
             ]}
           />
           <Entourage
-            title="Bridesmaids"
+            title="Abay"
             names={[
-              "Ms. Joemily Rose Angat",
-              "Ms. Alyana Patricia Orito",
-              "Ms. Ma. dame Ametrini Morcilla",
-              "Ms. Romilyds Argana",
-              "Ms. Danica Lyka Pineda",
-              "Ms. Raine Louise Reyes",
+              "Binibining Joemily Rose Angat",
+              "Binibining Alyana Patricia Orito",
+              "Binibining Ma. dame Ametrini Morcilla",
+              "Binibining Romilyds Argana",
+              "Binibining Danica Lyka Pineda",
+              "Binibining Raine Louise Reyes",
             ]}
           />
         </div>
 
         <div className="grid grid-cols-3 w-full">
           <Entourage
-            title="Veil"
-            names={["Mr. Villy Fuellas", " Ms. Ma. Dame Ametrini Morcilla"]}
+            title="Magbibigay Suklob Sa  Aming Pagiging Isa"
+            names={[
+              "Ginoong Villy Fuellas",
+              " Binibining Ma. Dame Ametrini Morcilla",
+            ]}
           />
           <Entourage
-            title="Candle"
-            names={["Mr. Jed Policarpio", "Ms. Joemily Rose Anga"]}
+            title="Magbibigay Tanglaw Sa  Aming Bagong Landas"
+            names={["Ginoong Jed Policarpio", "Binibining Joemily Rose Angat"]}
           />
           <Entourage
-            title="Cord"
-            names={["Mr. Victorio Balais", "Ms. Alyana Patricia Orit"]}
+            title="Magbibigay Tali Ng  Katiwasayan"
+            names={[
+              "Ginoong Victorio Balais",
+              "Binibining Alyana Patricia Orit",
+            ]}
           />
         </div>
 
         <div className="grid grid-cols-3 w-full">
           <Entourage
-            title="Ring Bearer"
-            names={["Mr. Jerome Estadilla", " Ms. Romilyds Argana"]}
+            title="Tagapag-ingat Ng Sagisag Ng Aming Pagmamahalan"
+            names={["Ginoong Jerome Estadilla", " Binibining Romilyds Argana"]}
           />
           <Entourage
-            title="Coin Bearer"
-            names={["Mr. Marvin Gomez", "Ms. Raine Louise Reyes"]}
+            title="Tagapag-ingat Ng Sagisag Ng Aming Kasaganahan"
+            names={["Ginoong Marvin Gomez", "Binibining Raine Louise Reyes"]}
           />
           <Entourage
-            title="Bible Bearer"
-            names={["Mr. Kent Luna", "Ms. Danica Lyka Pineda"]}
+            title="Tagapag-ingat Ng Sagisag Ng Aming Pananampalataya"
+            names={["Ginoong Kent Luna", "Binibining Danica Lyka Pineda"]}
           />
         </div>
       </div>
-      <Image
-        alt="Entourage background"
-        src="/images/background/bg1-down.jpg"
-        width={472}
-        height={709}
-        className="absolute bottom-0 right-0 w-[20%] -z-20"
-      />
     </div>
   );
 };

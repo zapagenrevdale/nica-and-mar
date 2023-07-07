@@ -4,7 +4,7 @@ const Number: React.FC<Props> = ({ digits, label }) => {
 
   return (
     <span className="text-center ">
-      <div className="flex gap-x-1 text-xl md:text-4xl font-bold text-white ">
+      <div className="flex gap-x-1 text-xl md:text-4xl font-bold text-white pb-2">
         {digitArray.map((digit, index) => (
           <div
             key={index}
@@ -14,7 +14,7 @@ const Number: React.FC<Props> = ({ digits, label }) => {
           </div>
         ))}
       </div>
-      <label className="leading-10 text-neutral-700 text-xs sm:text-base">{label}</label>
+      <label className="leading-10 text-white text-xs sm:text-base bg-neutral-900/30 px-2 rounded-lg">{label}</label>
     </span>
   );
 };

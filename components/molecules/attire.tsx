@@ -1,6 +1,6 @@
 const Attire: React.FC<Props> = ({ title, description, type, colors }) => {
   return (
-    <div className="text-center flex flex-col gap-3 items-center font-montaga w-full min-w-[350px]">
+    <div className="text-center flex flex-col gap-3 items-center font-woodland w-full min-w-[350px]">
       <div className="">
         <h2 className="text-base sm:text-lg lg:text-3xl pb-2">{title}</h2>
         <div className="w-3/4 h-[2px] border-b-2 border-b-custom-brown mx-auto mb-[3%]" />

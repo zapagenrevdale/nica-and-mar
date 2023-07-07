@@ -11,6 +11,8 @@ module.exports = {
       quickSand: ["Quicksand", "sans-serif"],
       montaga: ["Montaga", "serif"],
       darleston: ["Darleston", "sans"],
+      woodland: ["Woodland", "sans"],
+      snell: ["Snell", "sans"],
     },
     fontWeight: {
       light: 300,
