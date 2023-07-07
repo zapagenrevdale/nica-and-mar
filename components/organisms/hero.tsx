@@ -18,6 +18,7 @@ const Hero = () => {
       style={{
         backgroundImage: "url('/images/DD5A4874.png')",
       }}
+      id="home"
     >
       {/* background opacity */}
       <div className="h-full w-full absolute opacity-40 bg-white" />

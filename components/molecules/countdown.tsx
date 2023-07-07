@@ -54,7 +54,7 @@ const Countdown: React.FC<Props> = ({ endDate }) => {
 
   return (
     <>
-      <div className="flex gap-x-2 md:gap-x-6 pb-[5%] pt-[3%]">
+      <div className="flex gap-x-2 md:gap-x-6 pb-[5%] pt-[3%]" id="rsvp">
         <Number digits={timeLeft.days} label="Araw"/>
         <Number digits={timeLeft.hours} label="Oras"/>
         <Number digits={timeLeft.minutes} label="Minuto"/>

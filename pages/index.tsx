@@ -10,16 +10,22 @@ import FAQS from "@/components/organisms/faqs";
 import Guide from "@/components/organisms/guide";
 const Home = () => {
   return (
-    <main className="flex flex-col items-center w-full pb-[100vh]">
+    <main className="flex flex-col items-center w-full pb-20">
       <div className="container relative">
         <Hero />
-        <MainPhotos />
+        
         {/* now image with link  */}
-        {/* <RSVP /> */}
+        <RSVP />
+        <MainPhotos />
+        <div id="entourage" className="h-20"/>
         <EntourageGroup />
+        <div id="kasuotan" className="h-20"/>
         <Attire />
+        <div id="lokasyon" className="h-20"/>
         <Location />
+        <div id="gabay" className="h-20"/>
         <Guide />
+        <div id="mga-tanong" className="h-20"/>
         <FAQS />
         <MusicPlayer />
       </div>

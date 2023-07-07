@@ -5,11 +5,12 @@ const Attire = () => {
   return (
     <div>
       <div
-        className="flex flex-col items-center justify-center text-neutral-700 gap-10 font-woodland relative  bg-no-repeat bg-top bg-cover"
+        className="flex flex-col items-center justify-center text-neutral-700 gap-10 py-10 font-woodland relative  bg-no-repeat bg-top bg-cover rounded-lg"
         style={{
           backgroundImage: "url('/images/DD5A5459.png')",
           backgroundAttachment: "fixed",
         }}
+        id="kasuotan"
       >
         <div className="h-full w-full absolute opacity-50 bg-white p-10" />
 

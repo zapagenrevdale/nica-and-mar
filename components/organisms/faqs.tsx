@@ -39,7 +39,9 @@ interface QAProps {
 
 const FAQS = () => {
   return (
-    <div className="flex flex-col items-center w-full relative min-h-[800px] py-10 mt-20 font-woodland">
+    <div
+      className="flex flex-col items-center w-full relative min-h-[800px] py-10 font-woodland"
+    >
       <h1 className="text-4xl lg:text-5xl font-woodland font-bold text-center py-4 lg:pb-16 px-10">
         MGA TANONG
       </h1>
@@ -98,7 +100,6 @@ const FAQS = () => {
           question="Anong oras magsisimula ang resepyon?"
           answer={`Ang resepyon ay magsisimula nang eksakto sa Alas-kwatro ng hapon.`}
         />
-        
       </div>
     </div>
   );

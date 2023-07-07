@@ -1,14 +1,16 @@
 const Guide = () => {
   return (
-    <div className="flex flex-col items-center w-full relative min-h-[800px]  py-10  rounded-md  mt-20 font-woodland">
+    <div className="flex flex-col items-center w-full relative min-h-[800px]  py-10  rounded-md font-woodland">
       <h1 className="text-4xl lg:text-5xl  font-bold text-center py-4 lg:pb-16 px-10">
         MGA GABAY
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 p-10 max-w-[1000px] gap-20 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 p-12 max-w-[1200px] gap-20 text-center shadow-xl">
         <div className="">
           <div className="w-fit mx-auto">
-            <h1 className="font-bold text-2xl lg:text-3xl pb-2">Unplugged Ceremony</h1>
+            <h1 className="font-bold text-2xl lg:text-3xl pb-2">
+              Unplugged Ceremony
+            </h1>
             <div className="w-3/4 h-[2px] border-b-2 mx-auto border-custom-brown" />
           </div>
           <p className="pt-4 text-lg lg:text-xl">
@@ -18,7 +20,9 @@ const Guide = () => {
         </div>
         <div className="">
           <div className="w-fit mx-auto">
-            <h1 className="font-bold text-2xl lg:text-3xl pb-2">Banayan na paalala</h1>
+            <h1 className="font-bold text-2xl lg:text-3xl pb-2">
+              Banayan na paalala
+            </h1>
             <div className="w-3/4 h-[2px] border-b-2 mx-auto border-custom-brown" />
           </div>
 
@@ -30,7 +34,9 @@ const Guide = () => {
         </div>
         <div className="">
           <div className="w-fit mx-auto">
-            <h1 className="font-bold text-2xl lg:text-3xl pb-2">SNAP & SHARE</h1>
+            <h1 className="font-bold text-2xl lg:text-3xl pb-2">
+              SNAP & SHARE
+            </h1>
             <div className="w-3/4 h-[2px] border-b-2 mx-auto border-custom-brown" />
           </div>
 
@@ -41,7 +47,9 @@ const Guide = () => {
         </div>
         <div className="">
           <div className="w-fit mx-auto">
-            <h1 className="font-bold text-2xl lg:text-3xl pb-2">Pagbigay ng Regalo</h1>
+            <h1 className="font-bold text-2xl lg:text-3xl pb-2">
+              Pagbigay ng Regalo
+            </h1>
             <div className="w-3/4 h-[2px] border-b-2 mx-auto border-custom-brown" />
           </div>
 

@@ -1,10 +1,9 @@
-import Image from "next/image";
 import Entourage from "../molecules/entourage";
 
 const EntourageGroup = () => {
   return (
     <div
-      className="flex justify-center w-full relative  pb-10 my-14 overflow-hidden border-2  bg-no-repeat bg-top bg-cover"
+      className="flex justify-center w-full relative  pb-10 overflow-hidden rounded-lg bg-no-repeat bg-top bg-cover"
       style={{
         backgroundImage: "url('/images/DD5A5807.png')",
         // backgroundAttachment: "fixed",
@@ -12,7 +11,6 @@ const EntourageGroup = () => {
     >
       <div className="h-full w-full absolute opacity-70 bg-white"/>
    
-
       <div className="flex flex-col justify-center items-center gap-14 font-montaga text-neutral-700  w-11/12 p-10 z-10">
         {/* title */}
         <h1 className="text-5xl text-center font-woodland font-bold">
