@@ -13,14 +13,14 @@ const Home = () => {
     <main className="flex flex-col items-center w-full pb-[100vh]">
       <div className="container relative">
         <Hero />
-        {/* <MainPhotos /> */}
+        <MainPhotos />
         {/* now image with link  */}
         {/* <RSVP /> */}
-        {/* <EntourageGroup />
+        <EntourageGroup />
         <Attire />
         <Location />
         <Guide />
-        <FAQS /> */}
+        <FAQS />
         <MusicPlayer />
       </div>
     </main>

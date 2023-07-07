@@ -19,7 +19,7 @@ const MainPhotos = () => {
         transition={{ opacity: { duration: 1 }, x: { duration: 0.4 } }}
       >
         <img
-          src="/images/DD5A5713.jpg"
+          src="/images/DD5A5713.png"
           alt="prenup"
           width={800}
           height={800}
@@ -35,7 +35,7 @@ const MainPhotos = () => {
         transition={{ opacity: { duration: 1 }, x: { duration: 0.4 } }}
       >
         <img
-          src="/images/DD5A5839.jpg"
+          src="/images/DD5A5839.png"
           alt="prenup"
           width={700}
           height={700}

@@ -7,7 +7,7 @@ const Attire = () => {
       <div
         className="flex flex-col items-center justify-center text-neutral-700 gap-10 font-woodland relative  bg-no-repeat bg-top bg-cover"
         style={{
-          backgroundImage: "url('/images/DD5A5459.jpg')",
+          backgroundImage: "url('/images/DD5A5459.png')",
           backgroundAttachment: "fixed",
         }}
       >
