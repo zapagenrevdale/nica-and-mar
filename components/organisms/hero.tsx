@@ -16,11 +16,11 @@ const Hero = () => {
       transition={{ duration: 0.8 }}
       className="flex flex-col justify-center items-center p-10 text-text-brown  relative max-h-[400px] md:max-h-[600px] bg-no-repeat bg-cover bg-top md:bg-fixed overflow-hidden"
       style={{
-        backgroundImage: "url('/images/DD5A4874.jpg')",
+        backgroundImage: "url('/images/bg.png')",
       }}
     >
       {/* background opacity */}
-      <div className="h-full w-full absolute opacity-40 bg-white"/>
+      <div className="h-full w-full absolute opacity-40 bg-white" />
 
       <div className="flex flex-col gap-4 items-center text-center font-light w-full z-10 pt-20 font-snell">
         <h4 className="text-lg md:text-3xl font-semibold font-woodland font-bold">
