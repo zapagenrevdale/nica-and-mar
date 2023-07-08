@@ -45,9 +45,9 @@ const Header = () => {
       </div>
       <div
         className={`${
-          open ? (border ? "h-40" : "h-40 bg-[#d7cab9]") : "h-0 p-0"
+          open ? (border ? "h-40 p-2" : "h-40 bg-[#d7cab9] p-2") : "h-0 p-0"
         }
-        lg:hidden border-t border-neutral-200/90 transition-all duration-200 overflow-hidden grid grid-cols-4 items-center text-center p-2`}
+        lg:hidden border-t border-neutral-200/90 transition-all duration-200 overflow-hidden grid grid-cols-4 items-center text-center`}
       >
         <NavLink link="#home" title="M&N" />
         <NavLink link="#rsvp" title="RSVP" />
