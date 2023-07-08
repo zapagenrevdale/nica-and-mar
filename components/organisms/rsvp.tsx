@@ -13,7 +13,7 @@ const RSVP = () => {
           form na ito bago mag
           <br />
           <time className="text-2xl md:text-3xl font-bold">
-            Hulyo 10, 2023:
+            Hulyo 11, 2023:
           </time>
         </h6>
         <a

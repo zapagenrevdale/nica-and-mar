@@ -45,7 +45,7 @@ const FAQS = () => {
         </QA>
         <QA question="Kailan ang nakatakdang pahon para sa amin upang sumagot sa RSVP?">
           <p>
-            Mangyaring mag-RSVP nang hindi lalampas sa <b>Hulyo 10, 2023</b>.
+            Mangyaring mag-RSVP nang hindi lalampas sa <b>Hulyo 11, 2023</b>.
             <br />
             Kung wala kaming marinig mula sa iyo sa petsa sa itaas,
             ikinalulungkot naming ipagpalagay na hindi ka makakadalo at ang
