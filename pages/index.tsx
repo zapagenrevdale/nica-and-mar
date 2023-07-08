@@ -4,7 +4,6 @@ import Attire from "@/components/organisms/attire";
 import Location from "@/components/organisms/location";
 import RSVP from "@/components/organisms/rsvp";
 import Hero from "@/components/organisms/hero";
-import Divider from "@/components/atoms/divider";
 import MainPhotos from "@/components/molecules/mainPhotos";
 import FAQS from "@/components/organisms/faqs";
 import Guide from "@/components/organisms/guide";

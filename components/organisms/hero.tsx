@@ -14,7 +14,7 @@ const Hero = () => {
       initial={{ filter: "blur(2px)" }}
       animate={{ filter: isInView ? "blur(0px)" : "blur(12px)" }}
       transition={{ duration: 0.8 }}
-      className="flex flex-col justify-center items-center p-10 text-text-brown  relative w-screen h-screen bg-no-repeat bg-cover bg-fixed overflow-hidden"
+      className="flex flex-col justify-center items-center p-10 text-text-brown  relative w-screen h-screen bg-no-repeat bg-cover lg:bg-fixed overflow-hidden"
       style={{
         backgroundImage: "url('/images/M&N.png')",
         backgroundPosition: "50% 30%",
