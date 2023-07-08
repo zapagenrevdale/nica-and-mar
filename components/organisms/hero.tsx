@@ -47,7 +47,7 @@ const Hero = () => {
           className="text-lg md:text-3xl font-woodland font-bold "
           style={{
             textShadow:
-              "-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;",
+              "-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white",
           }}
         >
           HULYO 29, 2023

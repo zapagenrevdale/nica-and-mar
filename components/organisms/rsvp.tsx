@@ -4,11 +4,11 @@ const RSVP = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 justify-center w-full relative text-text-brown">
       <div className="flex flex-col items-center justify-center gap-10 text-center p-12">
         <h1 className="text-5xl lg:text-6xl font-bold">RSVP</h1>
-        <h6 className="text-2xl md:text-3xl">
+        <h6 className="text-xl md:text-3xl">
           Kasama ang aming pamilya, inaanyayahan namin kayong makibahagi sa
           aming kasal
         </h6>
-        <h6 className="text-2xl md:text-3xl">
+        <h6 className="text-xl md:text-3xl">
           Upang makumpirma ang inyong prisensya, hinihiling naming sagutan ang
           form na ito bago mag
           <br />
@@ -19,7 +19,7 @@ const RSVP = () => {
         <a
           href="https://forms.gle/JQHn8WC2nc5ubLen8"
           target="_tab"
-          className="text-2xl md:text-3xl hover:border-b-2 hover:border-text-brown border-b transition-all duration-100 w-fit"
+          className="text-xl md:text-3xl hover:border-b-2 hover:border-text-brown border-b transition-all duration-100 w-fit"
         >
           https://forms.gle/JQHn8WC2nc5ubLen8
         </a>
