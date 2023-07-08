@@ -5,34 +5,30 @@ const EntourageGroup = () => {
     <div
       className="flex justify-center w-full relative  pb-10 overflow-hidden rounded-lg bg-no-repeat bg-top bg-cover"
       style={{
-        backgroundImage: "url('/images/DD5A5807.png')",
+        backgroundImage: "url('/images/ENTOURAGE.png')",
         // backgroundAttachment: "fixed",
       }}
     >
-      <div className="h-full w-full absolute opacity-70 bg-white"/>
-   
-      <div className="flex flex-col justify-center items-center gap-14 font-montaga text-neutral-700  w-11/12 p-10 z-10">
-        {/* title */}
-        <h1 className="text-5xl text-center font-woodland font-bold">
-          The Entourage
-        </h1>
+      <div className="h-full w-full absolute opacity-60 bg-white" />
 
+      <div className="flex flex-col justify-center items-center gap-14 font-montaga text-neutral-700  w-11/12 p-10 pt-20 z-10">
         {/* groom and bride */}
         {/* grid 2 */}
-        <div className="grid grid-cols-2 w-full">
+        <div className="grid grid-cols-1 gap-y-4 w-full">
           <Entourage
             title="Mga Mahal Naming Magulang"
-            names={["Ginoong Rodolfo A. Pineda", "Ginang Donata T. Pineda"]}
-          />
-          <Entourage
-            title="Mga Mahal Naming Magulang"
-            names={["Ginoong Manuel R. Luna", "Ginang Marie Grace M. Luna"]}
+            names={[
+              "Ginoong Manuel R. Luna",
+              "Ginang Marie Grace M. Luna",
+              "Ginoong Rodolfo A. Pineda",
+              "Ginang Donata T. Pineda",
+            ]}
           />
         </div>
         {/* principal sponsor */}
         {/* grid 1 */}
 
-        <div className="grid grid-cols-1 w-full">
+        <div className="grid grid-cols-1 gap-y-4 w-full">
           <Entourage
             title="Mga Gabay Sa Aming Buhay"
             names={[
@@ -51,7 +47,7 @@ const EntourageGroup = () => {
         {/* bestman and maid of honor */}
         {/* grid 2 */}
 
-        <div className="grid grid-cols-2 w-full">
+        <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-2 w-full">
           <Entourage
             title="Mga Piling Ginoong Pandangal"
             names={["Ginoong Ashly Arquero", "Ginoong Paul Quiñone"]}
@@ -64,9 +60,9 @@ const EntourageGroup = () => {
 
         {/* gman and bmaid*/}
         {/* grid 2 */}
-        <div className="grid grid-cols-2 w-full">
+        <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-2 w-full">
           <Entourage
-            title="Abay"
+            title="Abay Na Lalaki"
             names={[
               "Ginoong Jed Policarpio",
               "Ginoong Victorio Balais",
@@ -77,7 +73,7 @@ const EntourageGroup = () => {
             ]}
           />
           <Entourage
-            title="Abay"
+            title="Abay Na Babae"
             names={[
               "Binibining Joemily Rose Angat",
               "Binibining Alyana Patricia Orito",
@@ -89,7 +85,7 @@ const EntourageGroup = () => {
           />
         </div>
 
-        <div className="grid grid-cols-3 w-full">
+        <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 w-full">
           <Entourage
             title="Magbibigay Suklob Sa  Aming Pagiging Isa"
             names={[
@@ -110,7 +106,7 @@ const EntourageGroup = () => {
           />
         </div>
 
-        <div className="grid grid-cols-3 w-full">
+        {/* <div className="grid grid-cols-3 w-full">
           <Entourage
             title="Tagapag-ingat Ng Sagisag Ng Aming Pagmamahalan"
             names={["Ginoong Jerome Estadilla", " Binibining Romilyds Argana"]}
@@ -123,7 +119,7 @@ const EntourageGroup = () => {
             title="Tagapag-ingat Ng Sagisag Ng Aming Pananampalataya"
             names={["Ginoong Kent Luna", "Binibining Danica Lyka Pineda"]}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

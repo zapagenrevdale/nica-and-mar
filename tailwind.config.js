@@ -7,12 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Merriweather", "serif", "sans-serif"],
-      quickSand: ["Quicksand", "sans-serif"],
-      montaga: ["Montaga", "serif"],
-      darleston: ["Darleston", "sans"],
-      woodland: ["Woodland", "sans"],
-      snell: ["Snell", "sans"],
+      sans: ["Woodland", "sans-serif"],
     },
     fontWeight: {
       light: 300,
@@ -28,7 +23,7 @@ module.exports = {
       },
       colors: {
         "custom-brown": "#B9A052",
-        "text-brown": "#BF9000",
+        "text-brown": "#84701C",
       },
     },
   },

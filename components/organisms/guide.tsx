@@ -1,7 +1,8 @@
+import Image from "next/image";
 const Guide = () => {
   return (
-    <div className="flex flex-col items-center w-full relative min-h-[800px]  py-10  rounded-md font-woodland">
-      <h1 className="text-4xl lg:text-5xl  font-bold text-center py-4 lg:pb-16 px-10">
+    <div className="flex flex-col items-center w-full relative min-h-[800px]  pb-10  rounded-md font-woodland">
+      <h1 className="text-4xl lg:text-5xl font-bold text-center py-4 lg:pb-16 px-10">
         MGA GABAY
       </h1>
 
@@ -42,7 +43,7 @@ const Guide = () => {
 
           <p className="pt-4 text-lg lg:text-xl">
             Mangyaring i-tag kami sa aming mga larawan gamit ang aming mga
-            opisyal na hashtag: #NICAtadhanakayMAR
+            opisyal na hashtag: <b> #NICAtadhanakayMAR</b>
           </p>
         </div>
         <div className="">
@@ -54,11 +55,19 @@ const Guide = () => {
           </div>
 
           <p className="pt-4 text-lg lg:text-xl">
-            As love is what this day is all about, your presence is one we could
-            not celebrate without. If you were thinking of giving a gift to help
-            us on our way, a monetary gift for our future would really make our
-            day.
+            Ang araw na ito ay nabuo sa pamamagitan ng aming pagmamahalan at
+            inyong presensya. Kung nag-iisip kang magabot ng salapi bilang
+            regalo para matulungan kami sa aming bagong yugto, aming itong
+            pahahalagahan at pagkakaingatan. Maraming salamat!
           </p>
+          <Image
+            src="/images/GCASH.png"
+            width={170}
+            height={400}
+            quality={100}
+            alt="rsvp"
+            className="w-auto rounded-xl mx-auto mt-4"
+          />
         </div>
       </div>
     </div>

@@ -3,8 +3,7 @@ import LocationCard from "../molecules/location";
 
 const Location = () => {
   return (
-    <div className="flex flex-col items-center w-full relative min-h-[800px]  py-10 text-neutral-70 border-2 border-text-brown/80 rounded-md shadow-lg">
-
+    <div className="flex flex-col items-center w-full relative min-h-[800px]  py-10 text-neutral-70 ">
       <h1 className="text-4xl lg:text-5xl font-woodland font-bold text-center py-4 lg:pb-16 px-10">
         SEREMONYA & RESEPSYON
       </h1>
@@ -27,7 +26,6 @@ const Location = () => {
           link="https://goo.gl/maps/bEdCWP8XGwqE6EfV8"
         />
       </div>
-
     </div>
   );
 };

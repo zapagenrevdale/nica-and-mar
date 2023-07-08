@@ -43,7 +43,7 @@ const App: React.FC = () => {
 
           <button
             onClick={handlePlayPause}
-            className="rounded-full border-white bg-custom-brown/60 border-4 p-2 w-16 h-16 text-white shadow-sm flex items-center justify-center"
+            className="rounded-full border-white  bg-text-brown/90 border-4 p-2 w-12 h-12 lg:w-16 lg:h-16 text-white shadow-sm flex items-center justify-center"
           >
             {isPlaying ? (
               <motion.div
@@ -67,7 +67,7 @@ const App: React.FC = () => {
                   repeat: Infinity,
                 }}
               >
-                <PlayCircleIcon className="h-9 w-9" />
+                <PlayCircleIcon className="h-7 w-7 lg:h-9 lg:w-9" />
               </motion.div>
             )}
           </button>

@@ -1,21 +1,39 @@
+import Image from "next/image";
 const RSVP = () => {
   return (
-    <div
-      className="flex justify-center w-full relative  pb-10  bg-no-repeat bg-cover bg-center md:bg-top rounded-b-md md:bg-fixed overflow-hidden h-40 md:h-60"
-      style={{
-        backgroundImage: "url('/images/DD5A4895.png')",
-      }}
-    >
-      <div className="h-full w-full absolute bg-neutral-800/40 z-10 " />
-      <div className="font-woodland z-20 flex flex-col justify-center items-center text-white gap-4">
-        <h3 className="text-4xl font-bold lg:text-5xl ">RSVP</h3>
-        <div className="flex items-end">
-          <h4 className=" text-xl md:text-2xl">Link: </h4>
-          <a href="https://forms.gle/JQHn8WC2nc5ubLen8" target="_blank" className="pl-4 text-lg md:text-xl underline underline-offset-4">
-            https://forms.gle/JQHn8WC2nc5ubLen8
-          </a>
-        </div>
+    <div className="grid grid-cols-1 lg:grid-cols-2 justify-center w-full relative text-text-brown">
+      <div className="flex flex-col items-center justify-center gap-10 text-center p-12">
+        <h1 className="text-5xl lg:text-6xl font-bold">RSVP</h1>
+        <h6 className="text-2xl md:text-3xl">
+          Kasama ang aming pamilya, inaanyayahan namin kayong makibahagi sa
+          aming kasal
+        </h6>
+        <h6 className="text-2xl md:text-3xl">
+          Upang makumpirma ang inyong prisensya, hinihiling naming sagutan ang
+          form na ito bago mag
+          <br />
+          <time className="text-2xl md:text-3xl font-bold">
+            Hulyo 10, 2023:
+          </time>
+        </h6>
+        <a
+          href="https://forms.gle/JQHn8WC2nc5ubLen8"
+          target="_tab"
+          className="text-2xl md:text-3xl hover:border-b-2 hover:border-text-brown border-b transition-all duration-100 w-fit"
+        >
+          https://forms.gle/JQHn8WC2nc5ubLen8
+        </a>
+
+        <h3 className="text-2xl md:text-3xl font-bold"> Maraming salamat!</h3>
       </div>
+      <Image
+        src="/images/RSVP.png"
+        width={1800}
+        height={1920}
+        quality={100}
+        alt="rsvp"
+        className="object-cover w-full h-full"
+      />
     </div>
   );
 };
