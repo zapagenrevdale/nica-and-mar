@@ -29,7 +29,7 @@ const Hero = () => {
           className="text-lg md:text-3xl font-woodland font-bold "
           style={{
             textShadow:
-              "-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;",
+              "-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white",
           }}
         >
           Sa Wakas!
@@ -38,7 +38,7 @@ const Hero = () => {
           className="text-5xl md:text-6xl lg:text-8xl font-bold capitalize text-white"
           style={{
             textShadow:
-              "-2px -2px 0 #84701C, 2px -2px 0 #84701C, -2px 2px 0 #84701C, 2px 2px 0 #84701C;",
+              "-2px -2px 0 #84701C, 2px -2px 0 #84701C, -2px 2px 0 #84701C, 2px 2px 0 #84701C",
           }}
         >
           Kasalang Luna - Pineda
