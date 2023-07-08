@@ -32,14 +32,14 @@ const EntourageGroup = () => {
           <Entourage
             title="Mga Gabay Sa Aming Buhay"
             names={[
-              "Ginoong Mark Marcial & Ginang Lory Mae Tubuan",
+              "Ginoong Mark Marcial & Ginang Lory Mae Tuban",
               "Ginoong Michael Marcial & Ginang Margie Reyes",
-              "Ginoong Bernie Turla & Ginang Maridel Rebadavia ",
-              "Ginoong Joselito Salazar & Ginang Glenda Magat",
-              "Ginoong Bado Pineda & Ginang Nora Fajardo",
-              "Ginoong Bado Pineda & Ginang Nora Fajardo",
-              "Ginoong Joey Turla & Ginang Rem Turla",
-              "Ginoong Paul Pineda & Ginang Melissa Hernandez",
+              "Ginoong Joselito Salazar & Ginang Maridel Rebadavia",
+              "Ginoong Mauro Pineda & Ginang Glenda",
+              "Ginoong Angelo Turla & Ginang Marissa Fajardo",
+              "Ginoong Policarpio Magat & Ginang Remedios Turla",
+              "Ginoong Johnny Manuel & Ginang Marissa Hernandez",
+              "Ginoong Cezar Gulapa & Ginang Fely Turla",
             ]}
           />
         </div>
@@ -101,7 +101,7 @@ const EntourageGroup = () => {
             title="Magbibigay Tali Ng  Katiwasayan"
             names={[
               "Ginoong Victorio Balais",
-              "Binibining Alyana Patricia Orit",
+              "Binibining Alyana Patricia Orito",
             ]}
           />
         </div>

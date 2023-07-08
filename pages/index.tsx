@@ -23,6 +23,7 @@ const Home = () => {
       <div className="container relative">
         {/* now image with link  */}
         <RSVP />
+        <div id="prenup" className="h-20" />
         <MainPhotos />
         <div id="entourage" className="h-20" />
         <EntourageGroup />

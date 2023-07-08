@@ -9,7 +9,7 @@ const MainPhotos = () => {
   return (
     <div
       ref={ref}
-      className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-3/4  mx-auto pt-20 overflow-hidden"
+      className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-3/4  mx-auto  overflow-hidden"
     >
       <motion.div
         animate={{

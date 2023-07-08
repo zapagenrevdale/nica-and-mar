@@ -24,7 +24,9 @@ const RSVP = () => {
           https://forms.gle/JQHn8WC2nc5ubLen8
         </a>
 
-        <h3 className="text-2xl md:text-3xl font-bold"> Maraming salamat!</h3>
+        <h3 className="text-2xl md:text-3xl font-bold" >
+          Maraming salamat!
+        </h3>
       </div>
       <Image
         src="/images/RSVP.png"

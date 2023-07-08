@@ -2,7 +2,11 @@ import Link from "next/link";
 
 const NavLink: React.FC<Props> = ({ link, title }) => {
   return (
-    <Link href={link} className="hover:underline hover:underline-offset-4" scroll={false}>
+    <Link
+      href={link}
+      className="text-sm md:text-base hover:underline hover:underline-offset-4"
+      scroll={false}
+    >
       {title}
     </Link>
   );

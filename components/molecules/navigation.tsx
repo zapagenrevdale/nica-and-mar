@@ -2,7 +2,7 @@ import NavLink from "@/components/atoms/navLink";
 
 const Navigation = () => {
   return (
-    <nav className="hidden space-x-8 font-woodland font-light xl:flex">
+    <nav className="hidden font-woodland font-light lg:flex lg:space-x-4 xl:space-x-8 ">
       <NavLink link="#home" title="M&N" />
       <NavLink link="#rsvp" title="RSVP" />
       <NavLink link="#entourage" title="ENTOURAGE" />
