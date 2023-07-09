@@ -24,7 +24,6 @@ const MainPhotos = () => {
           width={800}
           height={800}
           className="rounded-md shadow-md "
-        
         />
       </motion.div>
 
@@ -37,6 +36,38 @@ const MainPhotos = () => {
       >
         <img
           src="/images/DD5A5839.png"
+          alt="prenup"
+          width={800}
+          height={800}
+          className="rounded-md shadow-md"
+        />
+      </motion.div>
+
+      <motion.div
+        animate={{
+          opacity: isInView ? 1 : 0,
+          x: isInView ? 0 : 20,
+        }}
+        transition={{ opacity: { duration: 1 }, x: { duration: 0.4 } }}
+      >
+        <img
+          src="/images/BRIDE.png"
+          alt="prenup"
+          width={800}
+          height={800}
+          className="rounded-md shadow-md "
+        />
+      </motion.div>
+
+      <motion.div
+        animate={{
+          opacity: isInView ? 1 : 0,
+          x: isInView ? 0 : -20,
+        }}
+        transition={{ opacity: { duration: 1 }, x: { duration: 0.4 } }}
+      >
+        <img
+          src="/images/GROOM.png"
           alt="prenup"
           width={800}
           height={800}
