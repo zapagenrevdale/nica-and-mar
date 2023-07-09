@@ -32,13 +32,13 @@ const EntourageGroup = () => {
           <Entourage
             title="Mga Gabay Sa Aming Buhay"
             names={[
-              "Ginoong Mark Marcial & Ginang Lory Mae Tuban",
-              "Ginoong Michael Marcial & Ginang Margie Reyes",
-              "Ginoong Joselito Salazar & Ginang Maridel Rebadavia",
-              "Ginoong Mauro Pineda & Ginang Glenda",
-              "Ginoong Angelo Turla & Ginang Marissa Fajardo",
-              "Ginoong Policarpio Magat & Ginang Remedios Turla",
-              "Ginoong Johnny Manuel & Ginang Marissa Hernandez",
+              "Ginoong Michael Marcial  & Ginang Maridel Rebadavia",
+              "Ginoong Joselito Salazar & Ginang Lory Mae Tubuan",
+              "Ginoong Angelo Turla & Ginang Marissa Fajardo ",
+              "Ginoong Mark Marcial & Ginang Margie Reyes",
+              "Ginoong Policarpio Magat & Ginang Glenda Magat",
+              "Ginoong Johnny Manuel & Ginang Remedios Turla",
+              "Ginoong Mauro Pineda & Ginang Marissa Hernandez",
               "Ginoong Cezar Gulapa & Ginang Fely Turla",
             ]}
           />
@@ -64,22 +64,17 @@ const EntourageGroup = () => {
           <Entourage
             title="Abay Na Lalaki"
             names={[
-              "Ginoong Jed Policarpio",
-              "Ginoong Victorio Balais",
-              "Ginoong Villy Fuellas",
-              "Ginoong Jerome Estadilla",
               "Ginoong Kent Luna",
+              "Ginoong Jerome Cristopher Estadilla",
               "Ginoong Marvin Gomez",
+              "Ginoong Paul Aldrine Quiñones",
             ]}
           />
           <Entourage
             title="Abay Na Babae"
             names={[
-              "Binibining Joemily Rose Angat",
-              "Binibining Alyana Patricia Orito",
-              "Binibining Ma. dame Ametrini Morcilla",
+              "Binibining Danicalyka Pineda",
               "Binibining Romilyds Argana",
-              "Binibining Danica Lyka Pineda",
               "Binibining Raine Louise Reyes",
             ]}
           />
