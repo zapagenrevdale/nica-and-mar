@@ -84,13 +84,13 @@ const EntourageGroup = () => {
           <Entourage
             title="Magbibigay Suklob Sa  Aming Pagiging Isa"
             names={[
-              "Ginoong Villy Fuellas",
+              "Ginoong Villy Roel  Fuellas",
               " Binibining Ma. Dame Ametrini Morcilla",
             ]}
           />
           <Entourage
             title="Magbibigay Tanglaw Sa  Aming Bagong Landas"
-            names={["Ginoong Jed Policarpio", "Binibining Joemily Rose Angat"]}
+            names={["Ginoong Bryan  Jed Policarpio", "Binibining Joemily Rose Angat"]}
           />
           <Entourage
             title="Magbibigay Tali Ng  Katiwasayan"
