@@ -49,11 +49,11 @@ const EntourageGroup = () => {
 
         <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-2 w-full">
           <Entourage
-            title="Mga Piling Ginoong Pandangal"
-            names={["Ginoong Ashly Arquero", "Ginoong Paul Quiñone"]}
+            title="Piling Ginoong Pandangal"
+            names={["Ginoong Van Ashly Arquero "]}
           />
           <Entourage
-            title="Mga Piling Binibining Pandangal"
+            title="Piling Binibining Pandangal"
             names={["Binibining Kate Luna"]}
           />
         </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const LocationCard: React.FC<Props> = ({ link, type, address, src }) => {
+const LocationCard: React.FC<Props> = ({ link, type, address, src, time }) => {
   return (
     <div className="flex items-center flex-col text-center font-woodland p-10">
       <iframe
@@ -13,7 +13,12 @@ const LocationCard: React.FC<Props> = ({ link, type, address, src }) => {
         className="border-0 mb-8 shadow-lg w-full h-[300px] rounded-md"
       />
       <Link href={link} rel="noopener noreferrer" target="_blank">
-        <h3 className="text-2xl lg:text-3xl pb-4 text-neutral-800 font-bold">{type}</h3>
+        <h3 className="text-2xl lg:text-3xl pb-2 text-neutral-800 font-bold">
+          {type}
+        </h3>
+        <h6 className="text-lg lg:text-xl pb-4 text-neutral-800 font-bold">
+          ({time})
+        </h6>
         <p className="text-lg lg:text-xl text-neutral-800 w-fit hover:underline ">
           {address}
         </p>
@@ -27,6 +32,7 @@ interface Props {
   type: string;
   address: string;
   src: string;
+  time: string;
 }
 
 export default LocationCard;
