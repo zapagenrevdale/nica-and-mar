@@ -58,6 +58,14 @@ const EntourageGroup = () => {
           />
         </div>
 
+        <div className="grid grid-cols-1 gap-y-4 w-full">
+          <Entourage
+            title="Munting Binibini"
+            names={["Calee Klair Luna"]}
+          />
+        </div>
+
+
         {/* gman and bmaid*/}
         {/* grid 2 */}
         <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-2 w-full">
