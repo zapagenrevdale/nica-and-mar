@@ -10,7 +10,7 @@ const RSVP = () => {
         </h6>
         <h6 className="text-xl md:text-3xl">
           Upang makumpirma ang inyong prisensya, hinihiling naming sagutan ang
-          form na ito bago mag
+          form na ito
           <br />
           {/* <time className="text-2xl md:text-3xl font-bold">
             Hulyo 11, 2023:
