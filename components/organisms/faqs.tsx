@@ -43,7 +43,7 @@ const FAQS = () => {
             hindi.
           </p>
         </QA>
-        <QA question="Kailan ang nakatakdang pahon para sa amin upang sumagot sa RSVP?">
+        {/* <QA question="Kailan ang nakatakdang pahon para sa amin upang sumagot sa RSVP?">
           <p>
             Mangyaring mag-RSVP nang hindi lalampas sa <b>Hulyo 11, 2023</b>.
             <br />
@@ -54,7 +54,7 @@ const FAQS = () => {
             Muli ka naming papaalalahanin nang mas malapit sa petsang ito upang
             ipaalala sa iyo na tumugon kung makakadalo ka ba sa petsang ito.
           </p>
-        </QA>
+        </QA> */}
         <QA question="Nailagay ko sa RSVP ay OO, pero sa hindi inaasahang pag kakataon ay nag ka aberya at hindi na ako makakadalo, ano ang dapat kong gawin?">
           <p>
             Nauunawaan namin na maaaring may mga ganitong pangyayari, hinihiling

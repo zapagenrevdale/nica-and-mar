@@ -12,9 +12,9 @@ const RSVP = () => {
           Upang makumpirma ang inyong prisensya, hinihiling naming sagutan ang
           form na ito bago mag
           <br />
-          <time className="text-2xl md:text-3xl font-bold">
+          {/* <time className="text-2xl md:text-3xl font-bold">
             Hulyo 11, 2023:
-          </time>
+          </time> */}
         </h6>
         <a
           href="https://forms.gle/JQHn8WC2nc5ubLen8"
