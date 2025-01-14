@@ -32,7 +32,7 @@ Welcome to **Nica & Mar's Wedding Gift App**, a personalized app created to cele
 2. Navigate to the project directory:
 
     ```bash
-    cd nica-mar-wedding-app
+    cd nica-and-mar
     ```
 
 3. Install dependencies:
