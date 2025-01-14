@@ -57,18 +57,8 @@ A soft, romantic track plays in the background as you explore the wedding detail
 
 ---
 
-## 💬 Get Involved
-
-This app was created with love for Nica and Mar, but it's open-source and you're welcome to contribute! Feel free to fork the repo, submit pull requests, or suggest any improvements.
-
----
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 👋 Let's Stay Connected!
-
-If you have any questions, feedback, or ideas, reach out to me on GitHub or via email. Let's make this a memorable gift for Nica and Mar!
